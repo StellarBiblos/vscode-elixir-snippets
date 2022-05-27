@@ -319,6 +319,18 @@
     "description": "{:error, ... } ...",
     "scope": "source.elixir"
   },
+  "okt": {
+    "prefix": "okt",
+    "body": "|> then(&{:ok, &1})",
+    "description": "|> then(&{:ok, &1})",
+    "scope": "source.elixir"
+  },
+  "errt": {
+    "prefix": "errt",
+    "body": "|> then(&{:error, &1})",
+    "description": "|> then(&{:error, &1})",
+    "scope": "source.elixir"
+  },
   "test": {
     "prefix": "test",
     "body": "test $1 do\n\t$0\nend",
